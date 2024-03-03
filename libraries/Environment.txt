@@ -1,0 +1,43 @@
+
+Creating the environment
+terminal: py -3 -m venv .venv
+
+Activate the virtual environment
+terminal: .\.venv\Scripts\activate
+
+If an execution blocking error occurs: 
+terminal: Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+
+------------------------------------------------------------------------------------
+** With the virtual environment active
+Install Flask
+terminal: pip install flask
+
+If error occurs: 
+terminal: pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org Flask -vvv 
+
+------------------------------------------------------------------------------------
+** With the virtual environment active
+Install Pytest for automated testing
+terminal: pip install pytest
+
+If error occurs:
+terminal: pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org pytest -vvv 
+
+------------------------------------------------------------------------------------
+** With the virtual environment active
+Install Coverage for build
+terminal: pip install coverage 
+
+If error occurs:
+terminal: pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org coverage -vvv 
+
+------------------------------------------------------------------------------------
+To run the application
+terminal: flask --app app run
+
+To run test
+terminal: pytest test.py
+
+Shows the % coverage on the terminal
+terminal: coverage report -m

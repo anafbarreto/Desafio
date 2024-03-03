@@ -63,7 +63,7 @@ Your local server can be opened in applications like Postman, in extensions like
 
 4. To send a file you can use the route: http://localhost:port/process?file_paths=nome_do_arquivo.txt
 To add more files, simply fill in &file_paths=arquivo2.txt and so on. <br><br>
-<img src=Images/image-6.png> <br> 
+<img src=Images/image-6.png> 
 
 5. Display data: http://localhost:port/display. This functionality also allows data to be filtered by order_id and date. <br>
 Examples: <br>
