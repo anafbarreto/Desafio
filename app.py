@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 from datetime import datetime
 import os # Interact with the operating system
 
@@ -121,5 +121,10 @@ def display_data():
             order['total'] = round(order['total'], 2)
             
     return jsonify(list(filtered_data.values()))
+
+# Route for Frontend
+@app.route('/')
+def front_init():
+    return render_template('init.html')
 
 

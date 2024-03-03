@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        .url-example {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .url-example em {
+            font-style: normal;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .note {
+            color: #999;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Instructions</h1>
+        <div class="instruction">
+            <p>To submit data, access the following route:</p>
+            <div class="url-example">
+                <p>/process?file_paths=<em>file_name.txt</em></p>
+            </div>
+            <p class="note"> Note: Replace <em>file_name.txt</em> with the name of the file you want to import.</p>
+        </div>
+        <div class="instruction">
+            <p>To display the processed data, access the following route:</p>
+            <div class="url-example">
+                <p>/display</p>
+            </div>
+        </div>
+        <div class="instruction">
+            <p>You can apply filters to the display route. For example:</p>
+            <div class="url-example">
+                <p>/display?order_id=<em>751</em></p>
+            </div>
+        </div>
+        <p class="note">Note: Replace <em>751</em> with the desired filter parameters.</p>
+    </div>
+</body>
+</html>
