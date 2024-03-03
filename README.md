@@ -62,7 +62,7 @@ Your local server can be opened in applications like Postman, in extensions like
 ** Chrome does not have Json output in the data so the visualization may be different. <br>
 
 4. To send a file you can use the route: http://localhost:port/process?file_paths=nome_do_arquivo.txt
-To add more files, simply fill in &file_paths=arquivo2.txt and so on. <br>
+To add more files, simply fill in &file_paths=arquivo2.txt and so on. <br><br>
 <img src=Images/image-6.png> <br> 
 
 5. Display data: http://localhost:port/display. This functionality also allows data to be filtered by order_id and date. <br>
@@ -83,7 +83,8 @@ Another option is to execute the command: coverage report -m, so the visualizati
 
 
 ### Thanks
-Em pt-br, fazer esse teste foi divertido e eu precisei assistir boas aulas durante o processo. Obrigada! <br>
+Em pt-br, fazer esse teste foi divertido e eu precisei assistir boas aulas durante o processo. <br>
+Obrigada! <br>
 ![catprog](https://github.com/anafbarreto/Desafio/assets/44984838/87f17484-6a56-4b34-b52e-c3ecb980edd0)
 
 
