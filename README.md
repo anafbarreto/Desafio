@@ -48,11 +48,12 @@ Code and test coverage: 100%** (Coverage Report) <br>
 
 ### Project Execution
 The environment with the technologies necessary to execute the project are already in the .venv folder of this repository. <br>
+In case of doubt, a file with all the libraries used and how to install them is available in the repository in the "libraries" folder. <br>
 
 1. In the top corner, make a fork. <br>
 <img src=Images/image-1.png>
 
-2. To activate the .venv environment, in the terminal use: .venv\Scripts\activate  <br>
+2. To activate the .venv environment, in the terminal use: .\.venv\Scripts\activate  <br>
 <img src=Images/image-2.png>
 
 3. To run the application, in the terminal use: flask --app app run <br>
