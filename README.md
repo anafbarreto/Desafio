@@ -83,7 +83,6 @@ Another option is to execute the command: coverage report -m, so the visualizati
 
 
 ### Thanks
-Em pt-br, fazer esse teste foi divertido e eu precisei assistir boas aulas durante o processo. <br>
 Obrigada! <br>
 ![catprog](https://github.com/anafbarreto/Desafio/assets/44984838/87f17484-6a56-4b34-b52e-c3ecb980edd0)
 
